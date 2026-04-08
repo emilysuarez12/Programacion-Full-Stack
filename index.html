@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<meta charset="UTF-8">
+
+    <head>
+        <title>Sobre mì - Portfolio</title>
+    </head>
+    <body>
+        <h1>Sobre mì</h1>
+        <img src="https://placehold.co/600x400?text=Emily" alt="Mi foto"/>
+        <h3>Mis habilidades:</h3>
+        <ol>
+            <li>Java</li>
+            <li>HTML</li>
+            <li>Sistemas operativos</li>
+        </ol> 
+        <form action="/procesar-datos" method="post">
+            <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="usuario_nombre" />
+            </div>
+            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="usuario_email" />
+        </div>
+        <div>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="usuario_mensaje"></textarea>
+        </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <br>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Horario</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>7:00 - 9:30</td>
+                        <td>Ingenieria</td>
+                        <td>Matemàtica</td>
+                        <td>Ingles</td>
+                        <td>Programaciòn</td>
+                        <td>Sistemas</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 13:00</td>
+                        <td>Arte</td>
+                        <td>Filosofia</td>
+                        <td>Gestiòn</td>
+                        <td>Geografìa</td>
+                        <td>Fìsica</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <div class="social-links">
+            <a href="https://www.facebook.com/UTUoficial/" target="_blank">Facebook</a>
+            <br>
+            <a href="https://x.com/UTU_Uruguay" target="_blank">Twitter</a>
+            <br>
+            <a href="https://www.instagram.com/utuoficial/" target="_blank">Instagram</a>
+        </div>
+    
+    </body>
+</html>
