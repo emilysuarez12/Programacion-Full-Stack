@@ -3,10 +3,13 @@
 <meta charset="UTF-8">
 
     <head>
-        <title>Sobre mì - Portfolio</title>
+        <link rel="stylesheet" href="estilo.css">
+        <title>Sobre mí - Portfolio</title>
     </head>
     <body>
-        <h1>Sobre mì</h1>
+        <br>
+        <br>
+        <h1>Sobre mí</h1>
         <img src="https://placehold.co/600x400?text=Emily" alt="Mi foto"/>
         <h3>Mis habilidades:</h3>
         <ol>
@@ -14,6 +17,40 @@
             <li>HTML</li>
             <li>Sistemas operativos</li>
         </ol> 
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Horario</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miércoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>7:00 - 9:30</td>
+                        <td>Ingenieria</td>
+                        <td>Matemática</td>
+                        <td>Ingles</td>
+                        <td>Programación</td>
+                        <td>Sistemas</td>
+                    </tr>
+                    <tr>
+                        <td>10:00 - 13:00</td>
+                        <td>Arte</td>
+                        <td>Filosofia</td>
+                        <td>Gestión</td>
+                        <td>Geografía</td>
+                        <td>Física</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <br>
+        <br>
+    
         <form action="/procesar-datos" method="post">
             <div>
             <label for="nombre">Nombre:</label>
@@ -30,36 +67,7 @@
             <button type="submit">Enviar</button>
         </form>
         <br>
-        <table border="1">
-            <thead>
-                <tr>
-                    <th>Horario</th>
-                    <th>Lunes</th>
-                    <th>Martes</th>
-                    <th>Miercoles</th>
-                    <th>Jueves</th>
-                    <th>Viernes</th>
-                </tr>
-                <tbody>
-                    <tr>
-                        <td>7:00 - 9:30</td>
-                        <td>Ingenieria</td>
-                        <td>Matemàtica</td>
-                        <td>Ingles</td>
-                        <td>Programaciòn</td>
-                        <td>Sistemas</td>
-                    </tr>
-                    <tr>
-                        <td>10:00 - 13:00</td>
-                        <td>Arte</td>
-                        <td>Filosofia</td>
-                        <td>Gestiòn</td>
-                        <td>Geografìa</td>
-                        <td>Fìsica</td>
-                    </tr>
-                </tbody>
-            </thead>
-        </table>
+        <br>
         <div class="social-links">
             <a href="https://www.facebook.com/UTUoficial/" target="_blank">Facebook</a>
             <br>
