@@ -1,0 +1,10 @@
+.cajagrande{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body{
+    background-color: rgb(229,203,203);
+    font-family: sans-serif;
+    font-size: 50px;
+}
